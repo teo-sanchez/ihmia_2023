@@ -3,12 +3,11 @@
 - [x] first pass on _config.yml
 - [x] create new version control (git)
 - [x] create poster overview
-- [ ] finalize landpage 
-- [ ] logo
-- [ ] jump line after navigation
-- [ ] display sections in teal
+- [x] finalize landpage 
+- [x] logo
+- [x] jump line after navigation
+- [x] display sections in teal
 
-# Bug fixes
+# Programme
 
-- [ ] Logo not displaying
-- [ ] 
+- [ ] update program with previsional slots

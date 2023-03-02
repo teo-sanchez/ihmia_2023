@@ -1,25 +1,19 @@
 days:
-- name: Monday
-  abbr: Mo
-  date: 2020-01-31
+- name: Mercredi
+  abbr: Mer.
+  date: 2023-06-07
   rooms:
-  - name: Room A
+  - name: Salle de séminaire
     talks:
-      - name: Vim Impetus Placerat Cotidieque Ad
-        time_start: '12:00'
-        time_end: '12:45'
-      - name: Condimentum Vitae Sapien Pellentesque
-        time_start: '12:45'
-        time_end: '13:30'
+      - name: Composing Interactive Machine Learning Workflows and Interfaces
+        time_start: '10:00'
+        time_end: '10:25'
+      - name: Comment les concepteurs s'y retrouvent dans l'élaboration des systèmes algorithmiques
+        time_start: '10:30'
+        time_end: '10:55'
 
-  - name: Room B
+  - name: Espace Forum
     talks:
       - name: Arcu Non Odio
         time_start: '12:00'
         time_end: '13:00'
-
-  - name: Room C
-    talks:
-      - name: Eu Nisl Nunc Mi Ipsum Faucibus
-        time_start: '13:30'
-        time_end: '14:30'
