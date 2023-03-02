@@ -153,10 +153,15 @@ conference:
   talks:
     # Talk categories
     main_categories:
-      - name: "Cat A" #"Thème 1: Concevoir des interactions avec et pour l'IA"
+      - name: "Thème 1: Concevoir des interactions avec et pour l'IA"
         color: 'theme1'
-      - name:  "Cat B" # "Thème 2: Construire, évaluer et déployer des IAs dignes de confiance"
+      - name:  "Thème 2: Construire, évaluer et déployer des IAs dignes de confiance"
         color: 'theme2'
+      - name: "Pause"
+        color: "grey"
+      - name: "Poster et démos"
+        color: "Red"
+
       # - name: "Pause"
       #   color: "Gray"
       # - name: "Posters et démos"

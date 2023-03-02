@@ -7,6 +7,12 @@
 - [x] logo
 - [x] jump line after navigation
 - [x] display sections in teal
+- [ ] 
+
+# Landing page
+
+- [ ] Add logos
+- [ ] 
 
 # Programme
 
