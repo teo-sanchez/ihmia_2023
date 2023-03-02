@@ -2,6 +2,14 @@
 layout: location
 ---
 
-How to get to the conference
+L’événement se déroulera à au [Sorbonne Center for Artificial Intelligence](https://scai.sorbonne-universite.fr/), sur le campus Jussieu, 4 Pl. Jussieu, 75005 Paris, France.
 
-You can adapt the design as well as the section shown on the map by copying the `assets/js/main.js` from the theme's repository and editing it. See also the subsection [Location / Room Overview](https://github.com/DigitaleGesellschaft/jekyll-theme-conference/#location--room-overview) section of the theme's README file.
+La station de métro la plus proche est “Jussieu” (Ligne 7 et 10).
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1747.3731789554554!2d2.3557993054642163!3d48.84536554970454!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671d239f04a4f%3A0x2b5bf4ac5e59dd43!2sSorbonne%20Center%20for%20Artificial%20Intelligence%20-%20SCAI!5e0!3m2!1sen!2sde!4v1677795341286!5m2!1sen!2sde" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+Une fois devant l'entrée de l'université, côté métro Jussieu, suivez ce chemin pour accéder au bâtiment du SCAI.
+
+<!-- Integrate image in asssets/images -->
+
+<img src="/assets/images/plan_SCAI.png" alt="Direction à suivre pour SCAI, une fois dans l'université, prenez à droite jusqu'au bâtiment Esclangon. Traversez le bâtiment pour accéder au SCAI." style="width: 100%;"/>

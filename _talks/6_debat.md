@@ -6,7 +6,7 @@ speakers:
   - Nolwenn Maudet
 categories:
   - "Thème 1: Concevoir des interactions avec et pour l'IA"
-  - Talk
+  - Débat
 links:
   - name: Recodring
     icon: video

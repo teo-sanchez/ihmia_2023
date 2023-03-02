@@ -85,6 +85,46 @@
       </p>
     {% endif %}
 
+
   </div>
 
 {% include partials/footer.html %}
+
+<!-- Organizers-->
+<div class="container-fluid d-flex flex-column flex-md-row justify-content-center align-items-center align-items-md-start">
+  <div class="row w-100 justify-content-center">
+    <div class="col-12 col-md-4">
+      <h4 class="text-center">Organisateurs</h4>
+      <div class="text-center">
+        {% assign organizers = site.organizers | sort: 'name' %}
+        {% for organizer in organizers %}
+        <a href="mailto:{{ organizer.email }}">{{ organizer.name }}</a>
+        {% if forloop.last == false %}<span class="mx-2">|</span>{% endif %}
+        {% endfor %}
+      </div> 
+    </div>
+  </div>
+</div>
+<br>
+
+<!-- Partner logos-->
+<div class="container-fluid d-flex flex-column flex-md-row justify-content-center align-items-center align-items-md-start">
+  <div class="col-12 col-md-4">
+    <h4 class="text-center">Partenaires</h4>
+    <div class="text-center d-flex justify-content-center align-items-center">
+      <!-- loop over partners and display logos IN LINE (centered), forcing the height of all logos -->
+      {% for partner in site.partners %}
+      <a href="{{ partner.url }}" target="_blank">
+        <img src="{{ partner.logo | prepend: '/assets/images/' | prepend: site.baseurl }}"  alt="{{ partner.name }}"  style="height:80px"/>
+      </a>
+      <!-- add space between each logos -->
+      {% if forloop.last == false %}<span class="mx-4"></span>{% endif %}
+      {% endfor %}
+
+    </div> 
+  </div>
+</div>
+
+
+
+

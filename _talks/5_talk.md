@@ -4,7 +4,7 @@ speakers:
   - Anonymous
 categories:
   - "Thème 1: Concevoir des interactions avec et pour l'IA"
-  - Talk
+  - Présentation
 links:
   - name: Recodring
     icon: video

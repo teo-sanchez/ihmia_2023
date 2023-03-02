@@ -1,19 +1,14 @@
 # TODO
 
-- [x] first pass on _config.yml
-- [x] create new version control (git)
-- [x] create poster overview
-- [x] finalize landpage 
-- [x] logo
-- [x] jump line after navigation
-- [x] display sections in teal
-- [ ] 
-
-# Landing page
-
-- [ ] Add logos
-- [ ] 
-
 # Programme
 
-- [ ] update program with previsional slots
+- [x] update program with previsional slots
+- [x] Présentations et débats : pourquoi ce n'est pas dans l'ordre??
+- [ ] Faire le même template pour Demos et posters
+- [ ] Annonce dans Posters et Demos
+- [ ] Infos pratiques
+
+# Faire flyer
+- [ ] Image de fond?
+# Template poster
+- [ ] use ACM format? Create overleaf + word?

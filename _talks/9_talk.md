@@ -4,7 +4,7 @@ speakers:
   - Anonymous
 categories:
   - "Thème 2: Construire, évaluer et déployer des IAs dignes de confiance"
-  - Talk
+  - Présentation
 links:
   - name: Recodring
     icon: video

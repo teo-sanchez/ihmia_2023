@@ -78,6 +78,8 @@ $light:         $gray-100 !default;
 $dark:          $gray-800 !default;
 $theme1: #be713e;
 $theme2: #52a38a;
+$pauses: #495057;
+$posters: #ffc107;
 
 $theme-colors: () !default;
 $theme-colors: map-merge(
@@ -91,7 +93,9 @@ $theme-colors: map-merge(
     "light":      $light,
     "dark":       $dark,
     "theme1":    $theme1,
-    "theme2":   $theme2
+    "theme2":   $theme2,
+    "pauses":   $pauses,
+    "posters":  $posters
   ),
   $theme-colors
 );
