@@ -1,7 +1,19 @@
-<nav class="navbar navbar-expand-md navbar-light bg-light mb-3">
+<nav class="navbar-nav navbar-expand-md navbar-light mb-3">
   <div class="container">
 
-    <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    {%- if site.conference.navigation.logo %}
+      <div class="navbar-brand navbar-logo text-center" style="width: 100%;">
+        <a href="{{ site.conference.navigation.logo.url }}">
+          {%- if site.conference.navigation.logo.img %}
+            <img src="{{ site.conference.navigation.logo.img | prepend: '/assets/images/' | prepend: site.baseurl }}" class="align-middle" alt="{{ site.conference.navigation.logo.name }}" />
+          {%- else %}
+            {{ site.conference.navigation.logo.name }}
+          {%- endif %}
+        </a>
+      </div>
+    {%- endif %}
+
+    <!-- <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a> -->
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -81,17 +93,7 @@
       </ul>
     </div>
 
-    {%- if site.conference.navigation.logo %}
-      <div class="navbar-brand navbar-logo mr-0 w-25 text-right overflow-hidden">
-        <a href="{{ site.conference.navigation.logo.url }}">
-          {%- if site.conference.navigation.logo.img %}
-            <img src="{{ site.conference.navigation.logo.img | prepend: '/assets/images/' | prepend: site.baseurl }}" class="align-middle" alt="{{ site.conference.navigation.logo.name }}" />
-          {%- else %}
-            {{ site.conference.navigation.logo.name }}
-          {%- endif %}
-        </a>
-      </div>
-    {%- endif %}
+
 
   </div>
 </nav>

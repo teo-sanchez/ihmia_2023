@@ -1,7 +1,11 @@
 title: 6ème Journée Interaction Humain Machine et Intelligence Artificielle
+date : Mercredi 7 juin 2023
+lieu : SCAI, Sorbonne Université, Paris
 preposition: at
 description: >-
-  L’Association Francophone d’Interaction Homme-Machine (AFIHM) et l'Association Française pour l’Intelligence Artificielle (AFIA) organisent le mercredi 7 juin 2023 la 6ème journée IHM et IA au Sorbonne Center for Artificial Intelligence (SCAI), Paris. Au programme, présentations, débats et posters mettant en évidence les liens entre les deux disciplines. Chercheurs, praticiens, et étudiants sont invités à nous y rejoindre.
+  L’Association Francophone d’Interaction Homme-Machine (AFIHM) et l'Association Française pour l’Intelligence Artificielle (AFIA) organisent **le mercredi 7 juin 2023** la 6ème journée scientifique IHM et IA, au **Sorbonne Center for Artificial Intelligence (SCAI), Paris**. 
+  
+  Au programme, présentations, débats, posters et démos mettant en évidence les liens entre les deux disciplines. Chercheurs, praticiens, et étudiants sont invités à nous y rejoindre.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://example.com" # the base hostname & protocol for your site, e.g. https://example.com
 
@@ -60,19 +64,19 @@ conference:
   navigation:
     logo:
       name: Journée IHM et IA
-      img: 'ihmia_logo_192x192.png'
-      url: ''
+      img: 'ihmia2023_logo_192x192.png'
+      url: '/index' #landing page
     links:
       - name: Programme
         relative_url: /programme/
       - name: Présentations et débats
-        relative_url: /talks/
+        relative_url: /presentations/
       - name: Demos et posters
         relative_url: /posters/
-      - name: Invité.e.s
-        relative_url: /speakers/
+      - name: Intervenant·e·s
+        relative_url: /intervenants/
       - name: Infos pratiques
-        relative_url: /location/
+        relative_url: /infos/
       - name: Éditions précédentes
         menu:
           - name: 2023 (actuel)
@@ -95,10 +99,12 @@ conference:
     logo: 'ihmia_logo_192x192.png'
     img: 'ihmia_logo_192x192.png'
     links:
+      - name: Dépliant PDF
+        relative_url: /assets/ihmia21.pdf
       - name: Programme
-        relative_url: /program/
+        relative_url: /programme/
       - name: Infos pratiques
-        relative_url: /location/
+        relative_url: /infos/
       - name: Inscriptions (à venir)
         disabled: true
         absolute_url: ""
@@ -151,11 +157,10 @@ conference:
         color: 'theme1'
       - name:  "Cat B" # "Thème 2: Construire, évaluer et déployer des IAs dignes de confiance"
         color: 'theme2'
-      - name: "Pause"
-        color: "Gray"
-      - name: "Posters et démos"
-        color: "Gray"
-
+      # - name: "Pause"
+      #   color: "Gray"
+      # - name: "Posters et démos"
+      #   color: "Gray". Are not categories!
     # Hide icons on talk overview page
     hide_icons: false
 
@@ -167,9 +172,9 @@ conference:
     # Disable links to locations
     hide: false
     # URL of location / room overview page
-    url: "/location"
+    url: "/infos"
     # Main page title shown on location/room navigation bar
-    navbar_title: "Location"
+    navbar_title: "Infos pratiques"
     # Show map on location main page
     map: true
 
