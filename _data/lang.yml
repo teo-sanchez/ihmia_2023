@@ -134,8 +134,8 @@ fr:
     title: Programme
     legend: Légende
   speaker:
-    overview: Intervenants
-    title: Intervenant
+    overview: Intervenant·e·s
+    title: Intervenant·e
     talks: Présentations lors de cette conférence
   talk:
     overview: Présentations

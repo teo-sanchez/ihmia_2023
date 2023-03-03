@@ -1,5 +1,5 @@
 ---
-name: Pot de fin
+name: Posters et démos / Pot de fin
 categories:
   - Pause
 ---

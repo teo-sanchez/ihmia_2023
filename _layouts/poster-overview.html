@@ -1,16 +1,55 @@
 {% include partials/header.html %}
 
   <h1 class="display-5 mb-4">
-    {%- if page.title -%}
-      {{- page.title -}}
-    {%- else -%}
-      {{- site.data.lang[site.conference.lang].talk.overview | default: "Talks" -}}
-    {%- endif -%}
+    Posters et démos
   </h1>
 
   {{ content }}
 
-  {% for main_category in site.conference.talks.main_categories %}
+{% for main_category in site.conference.posters.main_categories %}
+    <h3 class="mt-4 mb-3">
+      <span class="badge border-soft-{{ main_category.color }} bg-soft-{{ main_category.color }} d-block d-sm-inline text-wrap">
+        {{ main_category.name }}
+      </span>
+    </h3>
+    <ul class="list-unstyled">
+      {% for poster in site.posters -%}
+        {%- for cat in poster.categories -%}
+          {%- if cat == main_category.name -%}
+            {%- assign main_cat = main_category.name -%}
+            <li class="pl-2 mb-2 border-soft-{{ main_category.color }}">
+              <p class="mb-0">
+                {% include partials/show_poster.html %}
+              </p>
+              <p class="font-weight-light mb-0">
+                {% include partials/list_poster_speakers.html %}
+              </p>
+            </li>
+          {%- endif -%}
+        {%- endfor -%}
+      {%- endfor -%}
+    </ul>
+  {%- endfor -%}
+
+      
+
+
+  
+
+  <!-- <ul class="list-unstyled">
+  {% for poster in site.posters -%}
+    <li class="pl-2 mb-2 border-soft-{{ site.conference.posters.color }}">
+      <p class="mb-0">
+        {% include partials/show_poster.html %}
+      </p>
+      <p class="font-weight-light mb-0">
+        {% include partials/list_poster_speakers.html %}
+      </p>
+  {%- endfor -%}
+  </ul> -->
+
+
+ <!--    {% for main_category in site.conference.talks.main_categories %}
     <h3 class="mt-4 mb-3">
       <span class="badge border-soft-{{ main_category.color }} bg-soft-{{ main_category.color }} d-block d-sm-inline text-wrap">
         {{ main_category.name }}

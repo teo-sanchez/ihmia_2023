@@ -29,6 +29,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:title/
+  posters:
+    output: true
+    permalink: /:collection/:title/
   speakers:
     output: true
     permalink: /:collection/:title/
@@ -159,10 +162,15 @@ conference:
         color: 'theme2'
       - name: "Pause"
         color: "pauses"
-      - name: "Posters et démos"
-        color: "posters"
     # Hide icons on talk overview page
     hide_icons: false
+
+  posters:
+    main_categories:
+      - name: "Posters"
+        color: "primary"
+      - name: "Démos"
+        color: "secondary"
 
   speakers:
     # Show first and last name

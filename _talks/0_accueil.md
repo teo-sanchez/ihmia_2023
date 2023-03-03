@@ -4,6 +4,6 @@ categories:
   - Pause
 ---
 
-Nous commencerons la journée par un petit déjeuner d'accueil préparé par notre partenaire (coming soon)
+Nous commencerons la journée par un petit déjeuner d'accueil préparé par notre partenaire ...
 Pour charger les batteries:
-- Coming soon...
+- Coming soon

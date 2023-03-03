@@ -6,7 +6,7 @@
 - [x] Présentations et débats : pourquoi ce n'est pas dans l'ordre??
 - [ ] Faire le même template pour Demos et posters
 - [ ] Annonce dans Posters et Demos
-- [ ] Infos pratiques
+- [x] Infos pratiques
 
 # Faire flyer
 - [ ] Image de fond?
