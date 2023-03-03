@@ -47,6 +47,11 @@ defaults:
       layout: talk
   - scope:
       path: ""
+      type: posters
+    values:
+      layout: poster
+  - scope:
+      path: ""
       type: speakers
     values:
       layout: speaker
@@ -70,6 +75,8 @@ conference:
       img: 'ihmia2023_logo_192x192.png'
       url: '/index' #landing page
     links:
+      - name: Accueil
+        relative_url: /index
       - name: Programme
         relative_url: /programme/
       - name: Présentations et débats
@@ -195,6 +202,7 @@ conference:
 
     # Show intermediary time steps (next to full hours)
     show_alltimes: true
+
 
 organizers:
   - name: "Téo Sanchez"

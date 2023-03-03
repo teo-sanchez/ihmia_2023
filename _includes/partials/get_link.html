@@ -17,7 +17,10 @@
 
   {%- elsif speaker -%}
     {%- assign link_href = link.file | prepend: '/documents/bio/' | prepend: site.baseurl -%}
-
+  
+  {%- elsif poster -%}
+    {%- assign link_href = link.file | prepend: '/documents/bio/' | prepend: site.baseurl -%}
+  
   {%- else -%}
     {%- assign link_href = link.file | prepend: '/documents/' | prepend: site.baseurl -%}
 
@@ -55,6 +58,20 @@
     {%- assign modal_footer = link.name -%}
 
   {%- endif -%}
+
+  {%- elsif poster -%}
+    {%- capture modal_title -%}
+      {%- if poster.hide -%}
+        {{ poster.name }}
+      {%- else -%}
+        <a class="text-reset" href="{{ poster.url | prepend: site.baseurl }}">
+          {{ poster.name }}
+        </a>
+      {%- endif -%}
+    {%- endcapture -%}
+    {%- capture modal_subtitle -%}
+      {%- include partials/list_poster_speakers.html -%}
+    {%- endcapture -%}
 
 {%- else -%}
   {%- assign link_disabled = true -%}

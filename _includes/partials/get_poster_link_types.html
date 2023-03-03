@@ -1,12 +1,5 @@
-{%- if talk -%}
-  {%- assign links = talk.links -%}
-{%- else if speaker -%}
-  {%- assign links = speaker.links -%}
+{%- assign links = poster.links -%}
 
-
-
-
-{%- endif -%}
 
 {%- assign has_icon_links = false -%}
 {%- assign has_regular_links = false -%}
