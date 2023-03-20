@@ -73,7 +73,7 @@ conference:
     logo:
       name: Journée IHM et IA
       img: 'ihmia2023_logo_192x192.png'
-      url: '/ihmia23' #landing page
+      url: '/index' #landing page
     links:
       - name: Accueil
         relative_url: /index
