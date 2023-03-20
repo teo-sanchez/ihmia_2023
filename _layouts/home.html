@@ -87,10 +87,12 @@
 
 
   </div>
+</div>
+
+{%- include partials/info_bar.html -%}
 
 {% include partials/footer.html %}
 
-<!-- Organizers-->
 <div class="container-fluid d-flex flex-column flex-md-row justify-content-center align-items-center align-items-md-start">
   <div class="row w-100 justify-content-center">
     <div class="col-12 col-md-4">
@@ -98,7 +100,7 @@
       <div class="text-center">
         {% assign organizers = site.organizers | sort: 'name' %}
         {% for organizer in organizers %}
-        <a href="mailto:{{ organizer.email }}">{{ organizer.name }}</a>
+        <a href="mailto:{{ organizer.email }}">{{ organizer.name }}</a> pour l' {{organizer.organization}}
         {% if forloop.last == false %}<span class="mx-2">|</span>{% endif %}
         {% endfor %}
       </div> 
@@ -107,7 +109,7 @@
 </div>
 <br>
 
-<!-- Partner logos-->
+
 <div class="container-fluid d-flex flex-column flex-md-row justify-content-center align-items-center align-items-md-start">
   <div class="col-12 col-md-4">
     <h4 class="text-center">Partenaires</h4>
@@ -120,7 +122,6 @@
       <!-- add space between each logos -->
       {% if forloop.last == false %}<span class="mx-4"></span>{% endif %}
       {% endfor %}
-
     </div> 
   </div>
 </div>

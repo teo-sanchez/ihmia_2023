@@ -5,6 +5,7 @@ speakers:
 categories:
   - "Thème 1: Concevoir des interactions avec et pour l'IA"
   - Présentation
+order: 5
 links:
   - name: Recodring
     icon: video

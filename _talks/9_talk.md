@@ -5,6 +5,7 @@ speakers:
 categories:
   - "Thème 2: Construire, évaluer et déployer des IAs dignes de confiance"
   - Présentation
+order: 9
 links:
   - name: Recodring
     icon: video

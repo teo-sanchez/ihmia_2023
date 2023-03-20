@@ -47,4 +47,9 @@
   </header>
   <main class="container">
 
+
+    {%- unless page_title == site.title %}
+
     {%- include partials/info_bar.html -%}
+
+    {% endunless -%}

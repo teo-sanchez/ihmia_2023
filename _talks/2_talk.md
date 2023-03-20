@@ -2,6 +2,7 @@
 name: Composing Interactive Machine Learning Workflows and Interfaces
 speakers:
   - Jules Françoise
+order: 2
 categories:
   - "Thème 1: Concevoir des interactions avec et pour l'IA"
   - Présentation

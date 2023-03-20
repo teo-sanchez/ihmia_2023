@@ -6,8 +6,8 @@ description: >-
   L’Association Francophone d’Interaction Humain-Machine (AFIHM) et l'Association Française pour l’Intelligence Artificielle (AFIA) organisent **le mercredi 7 juin 2023** la 6ème journée scientifique IHM et IA, au **Sorbonne Center for Artificial Intelligence (SCAI), Paris**. 
   
   Au programme, présentations, débats, posters et démos mettant en évidence les liens entre les deux disciplines. Chercheurs, praticiens, et étudiants sont invités à nous y rejoindre.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://example.com" # the base hostname & protocol for your site, e.g. https://example.com
+baseurl: "/ihmia23" # the subpath of your site, e.g. /blog
+url: "https://www.eoures.com" # the base hostname & protocol for your site, e.g. https://example.com
 
 theme: jekyll-theme-conference
 
@@ -73,7 +73,7 @@ conference:
     logo:
       name: Journée IHM et IA
       img: 'ihmia2023_logo_192x192.png'
-      url: '/index' #landing page
+      url: '/ihmia23' #landing page
     links:
       - name: Accueil
         relative_url: /index
@@ -110,7 +110,7 @@ conference:
     img: 'ihmia_logo_192x192.png'
     links:
       - name: Dépliant PDF
-        relative_url: /assets/ihmia21.pdf
+        relative_url: /assets/ihmia-2023.pdf
       - name: Programme
         relative_url: /programme/
       - name: Infos pratiques
@@ -120,34 +120,33 @@ conference:
         absolute_url: ""
 
   # Information boxes
-  # info_bars:
-  #   - title: Welcome to the Conference Theme for Jekyll!
-  #     color: secondary
-  #     main_only: true
-  #     text: |
-  #       The Theme was originally made for the [Winterkongress](https://www.digitale-gesellschaft.ch/kongress/), a yearly conference of the [Digital Society Switzerland](https://digitale-gesellschaft.ch/).
+  info_bars:
+    - title: Appel à contribution 🔎
+      color: secondary
+      text: |
 
-  #       ---
+        Si vous souhaitez communiquer sur vos travaux de recherche via un poster ou une démonstration, veuillez nous contacter en remplissant le formulaire correspondant:
 
-  #       See the [README](github.com/DigitaleGesellschaft/jekyll-theme-conference/) on the project's GitHub repository for further information on how to configure and adapt it to your needs.
-  #   - text: This is just some random content for demonstration purposes.
-  #     color: secondary
-  #     pages_only: true
+        <a class="btn btn-outline-secondary btn-lg mt-2 ml-1" href="https://framaforms.org/journee-ihm-ia-appel-a-contribution-de-poster-ou-demonstration-1677857395" target="_blank" role="button" id="" aria-haspopup="true" >
+          Je souhaite présenter un poster ou une démo
+        </a>
+
+      pages_only: false
 
   # Live indications
   live:
-    date: 01.01.2020
+    date: 03.03.2023
     timezone: GMT+1
-    stop: 240 # in minutes
+    stop: 10 # in minutes
     streaming:
-      enable: true
-      pause: 60 # in minutes
-      prepend: 5 # in minutes
-      extend: 5 # in minutes
+      enable: false
+      pause: 0 # in minutes
+      prepend: 1 # in minutes
+      extend: 1 # in minutes
     demo:
       enable: false
-      duration: 300 # in seconds
-      pause: 10 # in seconds
+      duration: 60 # in seconds
+      pause: 0 # in seconds
 
   # map:
   #   # Initial map center point
@@ -207,8 +206,10 @@ conference:
 organizers:
   - name: "Téo Sanchez"
     email: "teo.eoures@gmail.com"
+    organization: "AFIHM"
   - name: "Benoît Le Blanc"
     email: "benoit.leblanc@ensc.fr"
+    organization: "AFIA"
 
 partners:
   - acronym: AFIHM

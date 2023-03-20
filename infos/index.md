@@ -56,4 +56,4 @@ Une fois devant l'entrée de l'université, côté métro Jussieu, suivez ce che
 
 <!-- Integrate image in asssets/images -->
 
-<img src="/assets/images/plan_SCAI.png" alt="Direction à suivre pour SCAI, une fois dans l'université, prenez à droite jusqu'au bâtiment Esclangon. Traversez le bâtiment pour accéder au SCAI." style="width: 100%;"/>
+<img src="/ihmia23/assets/images/plan_SCAI.png" alt="Direction à suivre pour SCAI, une fois dans l'université, prenez à droite jusqu'au bâtiment Esclangon. Traversez le bâtiment pour accéder au SCAI." style="width: 100%;"/>
