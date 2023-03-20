@@ -6,8 +6,8 @@ description: >-
   L’Association Francophone d’Interaction Humain-Machine (AFIHM) et l'Association Française pour l’Intelligence Artificielle (AFIA) organisent **le mercredi 7 juin 2023** la 6ème journée scientifique IHM et IA, au **Sorbonne Center for Artificial Intelligence (SCAI), Paris**. 
   
   Au programme, présentations, débats, posters et démos mettant en évidence les liens entre les deux disciplines. Chercheurs, praticiens, et étudiants sont invités à nous y rejoindre.
-baseurl: "/ihmia23" # the subpath of your site, e.g. /blog
-url: "https://www.eoures.com" # the base hostname & protocol for your site, e.g. https://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://ihmia23.afihm.org/" # the base hostname & protocol for your site, e.g. https://example.com
 
 theme: jekyll-theme-conference
 
