@@ -1,9 +1,9 @@
 ---
-name: En attente de confirmation \#2
+name: Présentation 4
 speakers:
   - Anonymous
 categories:
-  - "Thème 1: Concevoir des interactions avec et pour l'IA"
+  - "Thème 1"
   - Présentation
 order: 5
 links:

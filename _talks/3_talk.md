@@ -1,10 +1,10 @@
 ---
-name: Comment les concepteurs s'y retrouvent dans l'élaboration des systèmes algorithmiques
+name: Présentation 2
 speakers:
-  - Nolwenn Maudet
+  - Anonymous
 order: 2
 categories:
-  - "Thème 1: Concevoir des interactions avec et pour l'IA"
+  - "Thème 1"
   - Présentation
 links:
   - name: Recording

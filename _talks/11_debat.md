@@ -1,9 +1,9 @@
 ---
-name: Doit-on et comment adapter les explications de systèmes aux utilisateurs? 
+name: Débat 2
 speakers:
   - Anonymous
 categories:
-  - "Thème 2: Construire, évaluer et déployer des IAs dignes de confiance"
+  - "Thème 2"
   - Débat
 order: 11
 links:

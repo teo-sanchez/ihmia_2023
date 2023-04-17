@@ -1,9 +1,9 @@
 ---
-name: En attente de confirmation \#4
+name: Présentation 6
 speakers:
   - Anonymous
 categories:
-  - "Thème 2: Construire, évaluer et déployer des IAs dignes de confiance"
+  - "Thème 2"
   - Présentation
 order: 9
 links:

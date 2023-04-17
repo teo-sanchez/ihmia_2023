@@ -162,9 +162,9 @@ conference:
   talks:
     # Talk categories
     main_categories:
-      - name: "Thème 1: Concevoir des interactions avec et pour l'IA"
+      - name: "Thème 1"
         color: 'theme1'
-      - name:  "Thème 2: Construire, évaluer et déployer des IAs dignes de confiance"
+      - name:  "Thème 2"
         color: 'theme2'
       - name: "Pause"
         color: "pauses"

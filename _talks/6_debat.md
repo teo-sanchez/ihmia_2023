@@ -1,11 +1,9 @@
 ---
-name: Quelle est la place du design et des designers dans la fabrication des systèmes intelligents?
+name: Débat 1
 speakers:
   - Anonymous
-  - Jules Françoise
-  - Nolwenn Maudet
 categories:
-  - "Thème 1: Concevoir des interactions avec et pour l'IA"
+  - "Thème 1"
   - Débat
 order: 6
 links:
