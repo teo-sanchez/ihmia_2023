@@ -1,17 +1,25 @@
 ---
-name: Présentation 2
+name: "Évaluation et utilisations expertes des systèmes d'apprentissage automatique interactifs"
 speakers:
-  - Anonymous
-order: 2
+  - Nadia Boukhelifa
+order: 3
 categories:
   - "Thème 1"
   - Présentation
 links:
-  - name: Recording
+  - name: Diffusion en direct
     icon: video
-    absolute_url: ""
-  - name: Wikipedia
-    absolute_url: https://en.wikipedia.org
----
+    absolute_url: "https://www.youtube.com/channel/UCFJ6Mm-eycVYK4rCVve2s2g"
 
-Coming soon...
+  - name: Evaluation of interactive machine learning systems
+    emoji: 📄
+    absolute_url: https://link.springer.com/chapter/10.1007/978-3-319-90403-0_17
+
+  - name: How data workers cope with uncertainty
+    emoji: 📄
+    absolute_url: "https://hal.science/hal-01472865/file/unstudy_chi.pdf"
+
+  - name: "Machine learning for agri-food processes: learning from data, human knowledge, and interactions"
+    emoji: 📄
+    absolute_url: "https://www.sciencedirect.com/science/article/abs/pii/B978032391167200006X"
+---

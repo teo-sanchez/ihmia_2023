@@ -8,4 +8,4 @@ links:
 
 ---
 
-TODO: Description
+Benoît LeBlanc est enseignant-chercheur à l'École Nationale Supérieure de Cognitique (Bordeaux INP), spécialisé en intelligence artificielle, gestion des connaissances et interactions homme-machine.

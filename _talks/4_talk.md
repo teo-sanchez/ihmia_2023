@@ -1,17 +1,19 @@
 ---
-name: Présentation 3
+name: "Concevoir par des voies détournées: comment les designers parviennent à façonner les systèmes algorithmiques"
 speakers:
-  - Anonymous
+  - Nolwenn Maudet
+order: 4
 categories:
   - "Thème 1"
   - Présentation
-order: 3
+order: 5
 links:
-  - name: Recodring
+  - name: Diffusion en direct
     icon: video
-    absolute_url: ""
-  - name: Wikipedia
-    absolute_url: https://en.wikipedia.org
+    absolute_url: "https://www.youtube.com/channel/UCFJ6Mm-eycVYK4rCVve2s2g"
+
+  - name: "Design Indirections: How designers find their ways in shaping algorithmic systems"
+    emoji: 📄 
+    absolute_url: "https://hal.science/hal-03838119/document"
 ---
 
-Coming soon...

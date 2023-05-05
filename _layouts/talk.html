@@ -101,7 +101,7 @@
         {% unless link_icon %}
           <li class="mb-1 ml-2 pl-2 border-soft-{{ main_cat_color }}">
             {{ link_tag }}
-              {{ link.name }}
+            {{link.emoji | default: ""}} {{ link.name }}
             </a>
           </li>
         {% endunless %}

@@ -7,4 +7,4 @@ order: 1
 
 ---
 
-Nous commencerons la journée par un petit déjeuner d'accueil 
+Présentation des deux associations partenaires de cette journée, l'AFIHM et l'AFIA, ainsi que le programme de la journée.

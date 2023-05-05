@@ -1,17 +1,18 @@
 ---
-name: Présentation 1
+name: "Composer les interactions avec les systèmes d'apprentissage automatique"
 speakers:
-  - Anonymous
+  - Jules Françoise
 order: 2
 categories:
   - "Thème 1"
   - Présentation
 links:
-  - name: Recording
+  - name: Diffusion en direct
     icon: video
-    absolute_url: ""
-  - name: Wikipedia
-    absolute_url: https://en.wikipedia.org
+    absolute_url: "https://www.youtube.com/channel/UCFJ6Mm-eycVYK4rCVve2s2g"
+  - name: "Marcelle: Composing Interactive Machine Learning Workflows and Interfaces"
+    emoji: 📄 
+    absolute_url: "https://hal.science/hal-03335115/file/francoise2021marcelle--authordraft.pdf"
+  - name: Marcelle toolkit
+    absolute_url: "https://marcelle.dev/"
 ---
-
-Coming soon...
