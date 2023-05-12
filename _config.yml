@@ -2,10 +2,17 @@ title: 6ème Journée Interaction Humain Machine et Intelligence Artificielle
 date : Mercredi 7 juin 2023
 lieu : SCAI, Sorbonne Université, Paris
 preposition: at
-description: >-
+description: >
   L’Association Francophone d’Interaction Humain-Machine (AFIHM) et l'Association Française pour l’Intelligence Artificielle (AFIA) organisent **le mercredi 7 juin 2023** la 6ème journée scientifique IHM et IA, au **Sorbonne Center for Artificial Intelligence (SCAI), Paris**. 
   
   Au programme, présentations, débats, posters et démos mettant en évidence les liens entre les deux disciplines. Chercheurs, praticiens, et étudiants sont invités à nous y rejoindre.
+
+  <h5>Tarifs</h5>
+  
+  - *Gratuit* pour les adhérents de l'AFIHM ou de l'AFIA → Adhérer à l'[AFIHM](https://www.afihm.org/tarifsetmodedepaiement.shtml) ou l'[AFIA](https://afia.asso.fr/adhesion/).
+
+  - *30€* pour les non-adhérents (à payer lors de la confirmation par mail)
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ihmia23.afihm.org/" # the base hostname & protocol for your site, e.g. https://example.com
 
@@ -77,10 +84,10 @@ conference:
     links:
       - name: Accueil
         relative_url: /index
-      - name: Programme
-        relative_url: /programme/
       - name: Présentations et débats
         relative_url: /presentations/
+      - name: Déroulé
+        relative_url: /programme/
       - name: Demos et posters
         relative_url: /posters/
       - name: Intervenant·e·s
@@ -110,14 +117,15 @@ conference:
     img: 'ihmia_logo_192x192.png'
     links:
       - name: Dépliant PDF
-        relative_url: /assets/ihmia-2023.pdf
-      - name: Programme
-        relative_url: /programme/
+        relative_url: /assets/flyer-ihmia2023-A4.pdf
+        target: "_blank"
+      # - name: Programme
+      #   relative_url: /programme/
       - name: Infos pratiques
         relative_url: /infos/
-      - name: Inscriptions (à venir)
-        disabled: true
-        absolute_url: ""
+      - name: Pré-inscriptions
+        absolute_url: "https://www.linscription.com/pro/activite.php?P1=135557"
+        target: "_blank"
 
   # Information boxes
   info_bars:

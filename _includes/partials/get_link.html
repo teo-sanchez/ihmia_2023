@@ -94,7 +94,7 @@
     {%- endif %}>
 
   {%- else -%}
-    <a{% if link_styleclass %} class="{{ link_styleclass }}"{% endif %} href="{{ link_href }}" title="{{ link.name }}">
+    <a{% if link_styleclass %} class="{{ link_styleclass }}"{% endif %} href="{{ link_href }}" target="{{ link.target or '_self' }}" title="{{ link.name }}">
 
   {%- endif -%}
 {%- endcapture -%}
