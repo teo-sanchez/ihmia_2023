@@ -16,6 +16,9 @@ description: >
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ihmia23.afihm.org/" # the base hostname & protocol for your site, e.g. https://example.com
 
+# Google Analytics
+google_analytics_id: G-X1T3NJHZ6K # Start with G-XXXXXXXXXX
+
 theme: jekyll-theme-conference
 
 # Build settings
