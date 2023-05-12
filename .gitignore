@@ -16,4 +16,4 @@ venv/
 .DS_Store
 
 ### inkscape ###
-assets/ihmia-2023-inkscape.svg
+assets/*.svg
