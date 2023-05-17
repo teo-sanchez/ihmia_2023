@@ -2,7 +2,7 @@
 name: Thomas Baudel
 first_name: Thomas
 last_name: Baudel
-affiliation: Directeur de recherche à [IBM](https://www.ibm.com/)
+affiliation: Directeur de recherche à [IBM](https://www.ibm.com/), Professeur attaché à l'[Université Paris-Saclay](https://www.universite-paris-saclay.fr/)
 links:
   - name: Page personelle
     absolute_url: https://researcher.watson.ibm.com/researcher/view.php?person=fr-baudelth
