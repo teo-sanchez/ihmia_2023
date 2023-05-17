@@ -2,6 +2,7 @@
 name: Oleksandra Vereschak
 first_name: Oleksandra
 last_name: Vereschak
+affiliation: Docteure de [Sorbonne Université](https://www.sorbonne-universite.fr/), ex-membre de l'[ISIR](https://www.isir.upmc.fr/)
 links:
   - name: Profile
     absolute_url: https://aleks-v.owlstown.net/

@@ -240,7 +240,7 @@ partners:
     name: Sorbonne Center for Artificial Intelligence
     url: https://scai.sorbonne-universite.fr/
     logo: "scai_logo.svg"
-  - acronym: INP Bordeaux ENSC
-    name: Institut National Polytechnique de Bordeaux
-    url: https://ensc.bordeaux-inp.fr/fr
-    logo: "ensc_logo_v2.png"
+  # - acronym: INP Bordeaux ENSC
+  #   name: Institut National Polytechnique de Bordeaux
+  #   url: https://ensc.bordeaux-inp.fr/fr
+  #   logo: "ensc_logo_v2.png"
