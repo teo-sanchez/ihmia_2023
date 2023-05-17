@@ -223,6 +223,9 @@ organizers:
   - name: "Benoît Le Blanc"
     email: "benoit.leblanc@ensc.fr"
     organization: "AFIA"
+  - name: "Eya Ben Chaaben"
+    email: "eya.ben-chaaben@inria.fr"
+    organization: "AFIA"
 
 partners:
   - acronym: AFIHM
