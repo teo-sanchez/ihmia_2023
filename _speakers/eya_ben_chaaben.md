@@ -2,7 +2,7 @@
 name: Eya Ben Chaaben (organisatrice)
 first_name: Eya
 last_name: Ben Chaaben (organisatrice)
-affiliation: Doctorante à l'[Université Paris-Saclay](https://www.universite-paris-saclay.fr/), [LISN](https://www.lisn.upsaclay.fr/), [équipe ExSitu](https://ex-situ.lri.fr/)
+affiliation: Doctorante à l'[Université Paris-Saclay](https://www.universite-paris-saclay.fr/), [LISN](https://www.lisn.upsaclay.fr/), [équipe ExSitu](https://ex-situ.lri.fr/), [CNRS](https://www.cnrs.fr/en), [Inria](https://www.inria.fr/fr)
 links:
   - name: Profile
     absolute_url: https://www.lisn.upsaclay.fr/members/ben-chaaben-eya/
