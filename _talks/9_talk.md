@@ -1,5 +1,5 @@
 ---
-name: "Analyse et coordination de l'automatisation de décisions pour les professionnels"
+name: " AI Decision Coordination : Faciliter l’appropriation de la décision automatisée par les responsables métiers."
 speakers:
   - Thomas Baudel
 categories:
