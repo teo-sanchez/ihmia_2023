@@ -9,7 +9,7 @@ categories:
 links:
   - name: Diffusion en direct
     icon: video
-    absolute_url: "https://www.youtube.com/channel/UCFJ6Mm-eycVYK4rCVve2s2g"
+    absolute_url: "https://www.youtube.com/watch?v=aZuhfcnydLk"
   - name: "Marcelle: Composing Interactive Machine Learning Workflows and Interfaces"
     emoji: 📄 
     absolute_url: "https://hal.science/hal-03335115/file/francoise2021marcelle--authordraft.pdf"

@@ -10,7 +10,7 @@ order: 8
 links:
   - name: Diffusion en direct
     icon: video
-    absolute_url: "https://www.youtube.com/channel/UCFJ6Mm-eycVYK4rCVve2s2g"
+    absolute_url: "https://www.youtube.com/watch?v=JdESZ1wlAjw"
     
   - name: An approach to User-Centric Context-Aware Assistance based on Interaction Traces
     emoji: 📄

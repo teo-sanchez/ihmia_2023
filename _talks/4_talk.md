@@ -10,7 +10,7 @@ order: 5
 links:
   - name: Diffusion en direct
     icon: video
-    absolute_url: "https://www.youtube.com/channel/UCFJ6Mm-eycVYK4rCVve2s2g"
+    absolute_url: "https://www.youtube.com/watch?v=aZuhfcnydLk"
 
   - name: "Design Indirections: How designers find their ways in shaping algorithmic systems"
     emoji: 📄 
