@@ -1,5 +1,5 @@
 ---
-name: " AI Decision Coordination : Faciliter l’appropriation de la décision automatisée par les responsables métiers."
+name: "AI Decision Coordination : Faciliter l’appropriation de la décision automatisée par les responsables métiers."
 speakers:
   - Thomas Baudel
 categories:
