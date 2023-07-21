@@ -87,12 +87,12 @@ conference:
     links:
       - name: Accueil
         relative_url: /index
-      - name: Présentations et débats
+      - name: Présentations
         relative_url: /presentations/
-      - name: Déroulé
-        relative_url: /programme/
       - name: Posters
         relative_url: /posters/
+      - name: Programme
+        relative_url: /programme/
       - name: Intervenant·e·s
         relative_url: /intervenants/
       - name: Infos pratiques
