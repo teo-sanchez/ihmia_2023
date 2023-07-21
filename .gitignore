@@ -16,4 +16,5 @@ venv/
 .DS_Store
 
 ### inkscape ###
-assets/*.svg
+assets/*/*.svg
+assets/*.mp4

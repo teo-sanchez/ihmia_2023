@@ -28,7 +28,7 @@ function copyToClipboard() {
   tempInput.select();
   document.execCommand("copy");
   document.body.removeChild(tempInput);
-  alert("Addresse copié dans le !");
+  alert("Addresse copié dans le presse-papier!");
 }
 </script>
 

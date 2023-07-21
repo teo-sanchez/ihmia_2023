@@ -17,3 +17,5 @@ links:
     emoji: 📄
     absolute_url: https://aleks-v.owlstown.net/publications/14078-what-ai-practitioners-say-about-human-ai-trust-its-role-importance-and-factors-that-affect-it
 ---
+
+<embed src="/assets/archive2023/presentations/presentation_ihmia_oleksandra_vereschak_2023.pdf" type="application/pdf" width="100%" height="650px" />

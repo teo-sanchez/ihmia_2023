@@ -18,3 +18,5 @@ links:
 ---
 
 Les traces témoignent d'une activité passée et constituent une source de connaissance qui peut être exploitée avec différents objectifs : étudier des phénomènes complexes tels que notamment l'apprentissage humain ou assister la tâche de l'utilisateur. Les travaux visent à assister la collecte, la modélisation et l'exploration de traces numériques, afin de mémoriser l'interprétation des traces et acquérir de nouvelles connaissances en interaction avec l'utilisateur. 
+
+<embed src="/assets/archive2023/presentations/presentation_ihmia_beatrice_fuchs_2023.pdf" type="application/pdf" width="100%" height="800px" />

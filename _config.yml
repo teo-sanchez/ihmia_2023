@@ -91,7 +91,7 @@ conference:
         relative_url: /presentations/
       - name: Déroulé
         relative_url: /programme/
-      - name: Demos et posters
+      - name: Posters
         relative_url: /posters/
       - name: Intervenant·e·s
         relative_url: /intervenants/
@@ -99,12 +99,18 @@ conference:
         relative_url: /infos/
       - name: Éditions précédentes
         menu:
-          - name: 2023 (actuel)
+          - name: 2023
             disabled: true
           - name: 2021
             relative_url: https://ihmia21.afihm.org/
           - name: 2019
             relative_url: https://ihmia19.netlify.app/
+          - name: 2017
+            relative_url: https://ihmia17.netlify.app/
+          - name: 2015
+            relative_url: /assets/archive2015/report_ihmia_2015.pdf
+          - name: 2013
+            relative_url: http://interaction.lille.inria.fr/events/IHMIA13/programme/index.html
 
   # Link Preview for Sharing
   link_preview:
@@ -120,27 +126,21 @@ conference:
     img: 'ihmia_logo_192x192.png'
     links:
       - name: Dépliant PDF
-        relative_url: /assets/flyer-ihmia2023-A4.pdf
+        relative_url: /assets/communication2023/flyer-ihmia2023-A4.pdf
         target: "_blank"
       # - name: Programme
       #   relative_url: /programme/
       - name: Infos pratiques
         relative_url: /infos/
-      - name: Pré-inscriptions
-        absolute_url: "https://www.linscription.com/pro/activite.php?P1=135557"
-        target: "_blank"
+
 
   # Information boxes
   info_bars:
-    - title: Appel à contribution 🔎
+    - title: Replay vidéo de la journée 🎥
       color: secondary
       text: |
 
-        Si vous souhaitez communiquer sur vos travaux de recherche via un poster ou une démonstration, veuillez nous contacter en remplissant le formulaire correspondant:
-
-        <a class="btn btn-outline-secondary btn-lg mt-2 ml-1" href="https://framaforms.org/journee-ihm-ia-appel-a-contribution-de-poster-ou-demonstration-1677857395" target="_blank" role="button" id="" aria-haspopup="true" >
-          Je souhaite présenter un poster ou une démo
-        </a>
+        Les présentations et débats de la journée sont maintenant disponibles en replay sur <a href="https://www.youtube.com/channel/UCFJ6Mm-eycVYK4rCVve2s2g" target="_blank">la chaîne YouTube de la journée IHM-IA</a> !
 
       pages_only: false
 
@@ -188,8 +188,8 @@ conference:
     main_categories:
       - name: "Posters"
         color: "primary"
-      - name: "Démos"
-        color: "secondary"
+      # - name: "Démos"
+      #   color: "secondary"
 
   speakers:
     # Show first and last name

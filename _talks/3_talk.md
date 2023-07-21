@@ -9,7 +9,7 @@ categories:
 links:
   - name: Diffusion en direct
     icon: video
-    absolute_url: "https://www.youtube.com/watch?v=aZuhfcnydLk"
+    absolute_url: "https://www.youtube.com/watch?v=h8NzZJutLxI&ab_channel=Journ%C3%A9escientifiqueIHMetIA"
 
   - name: Evaluation of interactive machine learning systems
     emoji: 📄

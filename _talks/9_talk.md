@@ -18,3 +18,5 @@ links:
 ---
 
 Depuis quelque années, nous développons une méthodologie permettant d’objectiver la mise en oeuvre de système de décision métier automatisée : traitement d’alertes, validation de dossiers d’application... Afin de faciliter l’appropriation de cette méthodologie par des responsables métiers, qui connaissent le métier mais moins les statistiques et la modélisation de processus, nous élaborons un logiciel d’analyse et d’aide à la décision, AI Decision Coordination. Nous présenterons les motivations et un premier aperçu de cet outil.
+
+<embed src="/assets/archive2023/presentations/presentation_ihmia_thomas_baudel_2023.pdf" type="application/pdf" width="100%" height="650px" />
