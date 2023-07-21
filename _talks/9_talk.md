@@ -9,7 +9,7 @@ order: 10
 links:
   - name: Diffusion en direct
     icon: video
-    absolute_url: "https://www.youtube.com/watch?v=JdESZ1wlAjw"
+    absolute_url: "https://youtu.be/QpgX4YD3SeA"
   - name: "AI Decision Coordination : easing the appropriation of decision automation for business users"
     emoji: 📄
     absolute_url: https://hal.science/IHM-2023/hal-04046408v1

@@ -9,7 +9,7 @@ order: 8
 links:
   - name: Diffusion en direct
     icon: video
-    absolute_url: "https://www.youtube.com/watch?v=JdESZ1wlAjw"
+    absolute_url: "https://youtu.be/zuDDqdVpZas"
   - name: How to Evaluate Trust in AI-Assisted Decision Making? A Survey of Empirical Methodologies
     emoji: 📄
     absolute_url: https://aleks-v.owlstown.net/publications/3528-how-to-evaluate-trust-in-ai-assisted-decision-making-a-survey-of-empirical-methodologies
