@@ -16,5 +16,3 @@ links:
   - name: Marcelle toolkit
     absolute_url: "https://marcelle.dev/"
 ---
-
-<embed src="/assets/archive2023/presentations/" type="application/pdf" width="100%" height="1600px" />

@@ -17,5 +17,5 @@ links:
     absolute_url: "https://hal.science/hal-03838119/document"
 ---
 
-<embed src="/assets/archive2023/presentations/presentation_ihmia_nolwenn_maudet_2023.pdf" type="application/pdf" width="100%" height="800px" />
+<embed src="/assets/archive2023/presentations/presentation_ihmia_nolwenn_maudet_2023.pdf" type="application/pdf" width="100%" height="650px" />
 
